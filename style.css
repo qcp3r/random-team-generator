@@ -1,5 +1,6 @@
 body {
-    background-color: #00151a;
+    background-image: url('rudy.png');
+    background-position: center;
     color: #e5f0f2;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
@@ -7,13 +8,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100vh;  
 }
 
 #container {
     width: 300px;
     padding: 20px;
-    background-color: #93CDC9;
+    background-color: rgba(240, 240, 240, 0.1);
+    border: 2px solid #00151a;
+    backdrop-filter: blur(10px);
     border-radius: 3%;
     text-align: center;
     display: flex;
@@ -58,3 +61,5 @@ h1 {
 #addPlayersBtn {
     margin-left: 10px; /* Dodaj odstęp między polem input a przyciskiem */
 }
+
+
